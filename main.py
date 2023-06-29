@@ -1,6 +1,6 @@
 
 # Update with the exercise you are trying to test
-from src import test
+from src import test, ex1
 
 
 def main():
