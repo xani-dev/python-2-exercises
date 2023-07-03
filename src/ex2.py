@@ -1,7 +1,8 @@
 def filter_males(list_name):
-    filtered = list(filter(lambda p:p['sex']=='female', list_name))
+    filtered = list(filter(lambda p: p['sex'] == 'female', list_name))
     print(filtered)
-    
+
+
 people_list = [
     {'name': 'alice', 'age': 20, 'weight': 160, 'sex': 'male', 'id': 1},
     {'name': 'bob', 'age': 10, 'weight': 130, 'sex': 'male', 'id': 2},

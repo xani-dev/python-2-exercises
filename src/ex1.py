@@ -1,12 +1,12 @@
 def sort_people(list_name, field, direction):
-        
+
     if direction == 'asc':
         direction = True
     else:
         direction = False
-    
-    result = sorted(list_name, key=lambda p: p[f'{field}'], reverse = direction)
-    
+
+    result = sorted(list_name, key=lambda p: p[f'{field}'], reverse=direction)
+
     print(result)
 
 
